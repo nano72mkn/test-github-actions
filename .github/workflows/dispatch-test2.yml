@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: shota1995m/test-github-actions-client
           event-type: dispatch-test2
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "test2"}'
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "test2追加}'
